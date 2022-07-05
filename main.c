@@ -4,13 +4,13 @@
 int main()
 {
 
-    char owen;
+    char letter;
     printf("type the A/a:");
-    scanf("%c",&owen);
-    if (owen<97)
-        owen = 'a';
+    scanf("%c",&letter);
+    if (letter<97)
+        letter = 'a';
      else
-        owen ='A';
-         printf("%c",owen);
+        letter ='A';
+         printf("%c",letter);
     return 0;
 }
